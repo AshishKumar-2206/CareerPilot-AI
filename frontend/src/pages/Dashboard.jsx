@@ -28,6 +28,104 @@ export default function Dashboard() {
       }
     >
       <Navbar />
+      <div
+          className="rounded-4 p-5 text-white shadow-lg mb-4"
+          style={{
+            background:
+                "linear-gradient(135deg,#2563eb,#7c3aed,#9333ea)"
+          }}
+      >
+
+        <h1 className="fw-bold">
+          🚀 Welcome Back Ashish
+        </h1>
+
+        <p>
+          Build your future with AI-powered career growth.
+        </p>
+        <p>
+
+          Your AI Career Assistant is ready.
+
+        </p>
+
+        <div className="mt-3">
+
+          <button className="btn btn-light me-2">
+            Apply Jobs
+          </button>
+
+          <button className="btn btn-outline-light">
+
+            Career Roadmap
+
+          </button>
+
+          <button className="btn btn-outline-light">
+            Start Interview
+          </button>
+        </div>
+
+      </div>
+      <div className="row">
+
+        <div className="col-md-3 mb-3">
+
+          <div className="glass-card hover-card p-4 text-center">
+
+            <div className="stat-number">
+              89%
+            </div>
+
+            Career Score
+
+          </div>
+
+        </div>
+
+        <div className="col-md-3 mb-3">
+
+          <div className="glass-card hover-card p-4 text-center">
+
+            <div className="stat-number">
+              82%
+            </div>
+
+            Resume Score
+
+          </div>
+
+        </div>
+
+        <div className="col-md-3 mb-3">
+
+          <div className="glass-card hover-card p-4 text-center">
+
+            <div className="stat-number">
+              42
+            </div>
+
+            Applications
+
+          </div>
+
+        </div>
+
+        <div className="col-md-3 mb-3">
+
+          <div className="glass-card hover-card p-4 text-center">
+
+            <div className="stat-number">
+              268
+            </div>
+
+            Connections
+
+          </div>
+
+        </div>
+
+      </div>
 
       <div className="container-fluid py-4">
         <div className="row">
@@ -125,6 +223,18 @@ export default function Dashboard() {
 
               </div>
             </motion.div>
+            <div className="glass-card p-4">
+
+              <h4>
+                🤖 AI Recommendation
+              </h4>
+
+              <p>
+                Your Resume Score improved by 8%.
+                You are 89% ready for Full Stack Developer roles.
+              </p>
+
+            </div>
 
             {/* ANALYTICS CARDS */}
             <div className="row mb-4">
@@ -180,8 +290,56 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="glass-card p-4">
+
+              <h5>
+                📢 Recent Activity
+              </h5>
+
+              <ul>
+
+                <li>
+                  Applied for React Developer
+                </li>
+
+                <li>
+                  Completed Mock Interview
+                </li>
+
+                <li>
+                  Resume Score Increased
+                </li>
+
+                <li>
+                  Connected with Rahul Sharma
+                </li>
+
+              </ul>
 
             </div>
+
+            <div className="glass-card p-4">
+
+              <h5>
+                🤖 AI Career Progress
+              </h5>
+
+              <div className="progress">
+
+                <div
+                    className="progress-bar"
+                    style={{
+                      width:"89%"
+                    }}
+                >
+                  89%
+                </div>
+
+              </div>
+
+            </div>
+
                         {/* AI INSIGHTS */}
             <div className="card border-0 shadow-sm mb-4">
               <div className="card-body">

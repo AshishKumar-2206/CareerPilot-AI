@@ -13,7 +13,7 @@ import {
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg shadow-sm sticky-top"
+        className="navbar navbar-expand-lg shadow-sm sticky-top"
       style={{
         background: "#0f172a",
         borderBottom: "1px solid #1e293b",
@@ -29,6 +29,7 @@ export default function Navbar() {
         >
           🚀 CareerPilot AI
         </Link>
+        
 
         {/* SEARCH */}
         <div
@@ -66,6 +67,7 @@ export default function Navbar() {
             <div style={{ fontSize: "12px" }}>Jobs</div>
           </Link>
 
+
           <Link
             to="/connections"
             className="text-decoration-none text-light text-center"
@@ -100,10 +102,13 @@ export default function Navbar() {
             <div style={{ fontSize: "12px" }}>Alerts</div>
           </Link>
 
-          <button className="btn btn-primary rounded-pill">
-            <FaRobot className="me-2" />
-            AI Coach
-          </button>
+
+            <Link
+                className="nav-link text-white"
+                to="/company"
+            >
+                🏢 Companies
+            </Link>
 
           <Link
             to="/profile"
@@ -112,10 +117,55 @@ export default function Navbar() {
             <FaUserCircle size={25} />
             <div style={{ fontSize: "12px" }}>Profile</div>
           </Link>
+            <button className="btn btn-primary rounded-pill">
+                <FaRobot className="me-2" />
+                AI Coach
+            </button>
+            <Link
+                className="nav-link text-white"
+                to="/career-roadmap"
+            >
+                🎯 Roadmap
+            </Link>
+            <Link
+                className="nav-link text-white"
+                to="/ai-career-center"
+            >
+                🤖 AI Career
+            </Link>
+            <Link
+                className="nav-link text-white"
+                to="/learning"
+            >
+                🎓 Learning
+            </Link>
+            <Link
+                className="nav-link text-white"
+                to="/resume-builder"
+            >
+                📄 Resume
+            </Link>
+            <Link
+                className="nav-link text-white"
+                to="/mock-interview"
+            >
+                🤖 Interview
+            </Link>
+            <Link
+                className="nav-link text-white"
+                to="/analytics"
+            >
+                📊 Analytics
+            </Link>
+
+            <Link className="nav-link text-white" to="/settings">
+                ⚙️ Settings
+            </Link>
 
           <button className="btn btn-danger rounded-pill">
             Logout
           </button>
+
 
         </div>
       </div>

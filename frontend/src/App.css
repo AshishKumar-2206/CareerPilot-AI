@@ -184,3 +184,12 @@
 
   
 }
+
+.chat-user {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.chat-user:hover {
+  background: #f5f5f5;
+}

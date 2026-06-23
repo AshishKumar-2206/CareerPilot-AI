@@ -12,6 +12,13 @@ import Messages from "./pages/Messages";
 import Jobs from "./pages/Jobs";
 import Connections from "./pages/Connections";
 import Settings from "./pages/Settings";
+import AICareerCenter from "./pages/AICareerCenter";
+import Company from "./pages/Company";
+import LearningHub from "./pages/LearningHub";
+import ResumeBuilder from "./pages/ResumeBuilder";
+import AIMockInterview from "./pages/AIMockInterview";
+import CareerRoadmap from "./pages/CareerRoadmap";
+import Analytics from "./pages/Analytics";
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +36,32 @@ function App() {
 <Route path="/notifications" element={<Notifications />} />
 <Route path="/connections" element={<Connections />} />
 <Route path="/settings" element={<Settings />} />
+<Route path="/ai-career-center" element={<AICareerCenter />} />
+
+          <Route
+              path="/company"
+              element={<Company />}
+          />
+          <Route
+              path="/learning"
+              element={<LearningHub />}
+          />
+          <Route
+              path="/resume-builder"
+              element={<ResumeBuilder />}
+          />
+          <Route
+              path="/mock-interview"
+              element={<AIMockInterview />}
+          />
+          <Route
+              path="/career-roadmap"
+              element={<CareerRoadmap />}
+          />
+          <Route
+              path="/analytics"
+              element={<Analytics />}
+          />
       </Routes>
     </BrowserRouter>
   );

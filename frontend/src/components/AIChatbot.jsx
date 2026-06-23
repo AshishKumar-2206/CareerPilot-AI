@@ -18,13 +18,19 @@ export default function AIChatbot() {
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="btn border-0 shadow-lg"
+        className="
+btn
+btn-primary
+rounded-circle
+shadow-lg
+ai-glow
+"
         style={{
           position: "fixed",
           bottom: "25px",
           right: "25px",
-          width: "70px",
-          height: "70px",
+          width: "80px",
+          height: "80px",
           borderRadius: "50%",
           background:
             "linear-gradient(135deg,#3b82f6,#8b5cf6)",

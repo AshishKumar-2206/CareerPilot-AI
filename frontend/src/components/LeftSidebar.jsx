@@ -34,6 +34,7 @@ export default function LeftSidebar() {
             height="120"
           />
 
+
           <h4 className="mt-3 mb-1">Ashish Kumar</h4>
 
           <p className="text-secondary mb-3">
@@ -43,6 +44,25 @@ export default function LeftSidebar() {
           <button className="btn btn-primary rounded-pill px-4">
             Edit Profile
           </button>
+          <div className="sidebar-link">
+            🏠 Dashboard
+          </div>
+
+          <div className="sidebar-link">
+            💼 Jobs
+          </div>
+
+          <div className="sidebar-link">
+            👤 Profile
+          </div>
+
+          <div className="sidebar-link">
+            🤖 AI Center
+          </div>
+
+          <div className="sidebar-link">
+            📊 Analytics
+          </div>
 
         </div>
       </div>

@@ -1,0 +1,48 @@
+body{
+    background:#f4f7fb;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.glass-card{
+    background:rgba(255,255,255,0.8);
+    backdrop-filter:blur(20px);
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+.gradient-card{
+    background:linear-gradient(
+            135deg,
+            #2563eb,
+            #7c3aed
+    );
+    color:white;
+}
+
+.hover-card{
+    transition:.3s;
+}
+
+.hover-card:hover{
+    transform:translateY(-6px);
+}
+
+.ai-glow{
+    box-shadow:
+            0 0 20px rgba(37,99,235,.3);
+}
+
+.sidebar-link{
+    padding:12px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.sidebar-link:hover{
+    background:#eef2ff;
+}
+
+.stat-number{
+    font-size:30px;
+    font-weight:700;
+}

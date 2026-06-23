@@ -1,0 +1,46 @@
+.glass-card {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.profile-banner {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #4f46e5,
+    #7c3aed
+  );
+}
+
+.hover-card {
+  transition: 0.3s;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-card{
+transition:.3s;
+}
+
+.profile-card:hover{
+transform:translateY(-8px);
+}
+
+.gradient-card{
+background:linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+color:white;
+border-radius:20px;
+}
+
+.glow{
+box-shadow:
+0 0 20px rgba(124,58,237,.4);
+}
